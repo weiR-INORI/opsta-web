@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    image: ghcr.io/weir-inori/opsta-web:dev
+    ports:
+      - "8080:80"
